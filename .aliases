@@ -2,6 +2,7 @@
 alias d="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
+alias wd="cd ~/Documents/Git"
 alias be="bundle exec"
 alias cuc="bundle exec cucumber -r features --tags ~@wip --format progress"
 alias sublime="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
