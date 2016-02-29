@@ -1,0 +1,3 @@
+curl https://gist.githubusercontent.com/robinvw1/7867c5af3b0175ee9b35/raw/ > ~/Library/LaunchAgents/com.docker.machine.default.plist
+
+launchctl load ~/Library/LaunchAgents/com.docker.machine.default.plist
