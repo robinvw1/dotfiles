@@ -7,7 +7,8 @@ alias be="bundle exec"
 alias cuc="bundle exec cucumber -r features --tags ~@wip --format progress"
 alias sublime="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias nw="/Applications/nwjs.app/Contents/MacOS/nwjs"
-alias dockerm="eval $(docker-machine env)"
+alias dm="docker-machine"
+alias dockerm="eval $(docker-machine env default)"
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
