@@ -20,3 +20,6 @@ shopt -s cdspell;
 
 # Use rbenv for Ruby versions
 eval "$(rbenv init -)"
+
+# Blendle config
+. ~/.blendle-config/rc.sh
