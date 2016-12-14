@@ -5,9 +5,9 @@ export GO15VENDOREXPERIMENT=1
 
 # Java
 export JAVA_HOME=$(/usr/libexec/java_home)
-
-# Make Sublime the default editor
-export EDITOR="sublime"
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$ANDROID_HOME/tools:$PATH
+export PATH=$ANDROID_HOME/platform-tools:$PATH
 
 # Enable persistent REPL history for `node`
 export NODE_REPL_HISTORY=~/.node_history
@@ -29,5 +29,8 @@ export HISTCONTROL="ignoreboth"
 export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 
-# Vault
-export VAULT_ADDR='http://0.0.0.0:8200'
+# Node Version Manager
+export NVM_DIR="/Users/Robin/.nvm"
+
+# Yarn
+export PATH="$PATH:`yarn global bin`"
